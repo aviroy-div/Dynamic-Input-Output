@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  background-color: aquamarine;
+  color: rgb(26, 26, 25);
+}
+
+button {
+  padding: 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: aqua;
+  color: green;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.output-container {
+  margin-top: 20px;
+}
+
+.result {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 7%;
+  background-color: beige;
+}
